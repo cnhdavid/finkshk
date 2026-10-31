@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "defaultTitle": "Fink Haustechnik | Sanitär, Heizung und Klima in Runkel",
+    "titleTemplate": "%s | Fink Haustechnik",
+    "description": "Ihr Meisterbetrieb für Sanitär, Heizung und Klima in Runkel und im Umkreis Limburg-Weilburg. Bäder, Heizungsanlagen, Lüftung, Wartung und Reparatur."
+  },
+  "brand": {
+    "wordmarkFirst": "Fink",
+    "wordmarkSecond": "Haustechnik"
+  },
+  "navigation": {
+    "main": "Hauptnavigation",
+    "mobile": "Mobile Navigation",
+    "quickContact": "Schnellkontakt",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "company": "Unternehmen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "actions": {
+    "call": "Anrufen",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "request": "Anfrage stellen",
+    "aboutUs": "Mehr über uns",
+    "allProjects": "Alle Projekte ansehen",
+    "toHome": "Zur Startseite"
+  },
+  "footer": {
+    "copyright": "© {year} Fink Haustechnik"
+  },
+  "placeholder": {
+    "label": "Platzhalter: {label}",
+    "caption": "Foto folgt"
+  },
+  "contactCta": {
+    "eyebrow": "Kontakt",
+    "title": "Sprechen wir über Ihr Projekt",
+    "text": "Vereinbaren Sie mit uns einen kostenfreien Vor-Ort-Termin und lassen Sie sich beraten."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Willkommen bei Fink SHK",
+      "title": "Ihr Meisterbetrieb für Sanitär, Heizung und Klima",
+      "text": "Wir sind Ihr zuverlässiger Handwerksdienstleister im Umkreis Limburg-Weilburg und bieten Ihnen innovative und nachhaltige Lösungen, von der Heizung über erneuerbare Energien bis zum Bäderdesign.",
+      "imageLabel": "Aktuelles Projekt von Fink Haustechnik"
+    },
+    "intro": {
+      "eyebrow": "Ihr Handwerksbetrieb aus Runkel",
+      "title": "Leidenschaft für handwerkliche Perfektion",
+      "text": "Unser engagiertes und motiviertes junges Team steht für höchste Qualitätsstandards und kundenorientierten Service. Mit langjähriger Erfahrung und modernstem Werkzeug bieten wir Ihnen individuelle Lösungen, die Ihren Bedürfnissen und Wünschen entsprechen."
+    },
+    "services": {
+      "eyebrow": "Leistungen",
+      "title": "Unsere Expertise umfasst"
+    },
+    "projects": {
+      "eyebrow": "Projekte",
+      "title": "Einblicke in unsere letzten Projekte",
+      "imageBathroom": "Referenzprojekt Bad",
+      "imageHeating": "Referenzprojekt Heizung"
+    }
+  },
+  "values": [
+    {
+      "title": "Qualität",
+      "text": "Wir arbeiten nach höchsten Qualitätsstandards und mit Leidenschaft für handwerkliche Perfektion."
+    },
+    {
+      "title": "Kundenorientierung",
+      "text": "Unsere Lösungen richten sich nach Ihren Bedürfnissen und Wünschen."
+    },
+    {
+      "title": "Erfahrung",
+      "text": "Sie profitieren von unserer langjährigen Erfahrung in Kundendienst und Montage."
+    },
+    {
+      "title": "Moderne Werkzeuge",
+      "text": "Wir arbeiten mit modernstem Werkzeug und modernen Maschinen."
+    }
+  ],
+  "services": {
+    "otherEyebrow": "Leistungen",
+    "otherTitle": "Weitere Leistungen",
+    "bad": {
+      "title": "Bad & Sanitär",
+      "headline": "Bäder & Sanitär",
+      "summary": "Von der Planung bis zur Umsetzung stehen wir Ihnen bei der Installation von Bädern, Duschen, WC-Anlagen und Armaturen zur Seite.",
+      "metaDescription": "Badplanung, Komplett- und Teilsanierung, Leckageortung und barrierefreie Bäder vom Meisterbetrieb aus Runkel im Umkreis Limburg-Weilburg.",
+      "intro": "Professionell, schnell und stressfrei: Wir verwandeln Ihr Badezimmer in eine Oase der Entspannung. Beratung, Planung und Ausführung erledigen wir selbst. Wir übernehmen Komplettbadsanierungen sowie Teilsanierung und Modernisierung, von der Demontage bis zur Fertigstellung Ihres neuen Bades.",
+      "imageLabel": "Bad aus einem Kundenprojekt",
+      "groups": [
+        {
+          "title": "Unsere Leistungen",
+          "text": "Ziel ist es, Ihre Wünsche bestmöglich zu berücksichtigen, um gemeinsam Ihr Traumbadezimmer möglich zu machen.",
+          "items": [
+            {
+              "title": "Badplanung",
+              "text": "Planen Sie Ihr Traumbad mit uns! Wir präsentieren Ihnen innovative Designideen. Egal, ob Sie ein kleines Gästebad oder eine luxuriöse Wellness-Oase schaffen möchten, wir finden die passenden Lösungen für Sie: von der Auswahl hochwertiger Materialien bis zur Integration modernster Technologien."
+            },
+            {
+              "title": "Sanierung & Teilsanierung",
+              "text": "Bei einer Komplettbadsanierung erneuern wir sämtliche Leitungen und Sanitäreinrichtungen in Ihrem Badezimmer. Sie möchten einen Teil Ihres Bades behalten? Kein Problem. Wir erneuern auch einzelne Armaturen, Sanitäreinrichtungen wie Duschwannen und Duschkabinen sowie Teile Ihres Badezimmers auf Wunsch."
+            },
+            {
+              "title": "Wasserschaden & Reparatur",
+              "text": "Wir kommen natürlich auch, wenn es tropft! Leckageortungen und Reparaturmaßnahmen im Sanitärbereich gehören ebenfalls zu unserem Leistungsspektrum."
+            },
+            {
+              "title": "Barrierefreiheit",
+              "text": "Ob alters- oder behindertengerecht, Sie sollen Ihr Traumbad grenzenlos nutzen können. Selbstverständlich bieten wir alle Leistungen auch für barrierefreie Bäder an."
+            }
+          ]
+        }
+      ]
+    },
+    "heizung": {
+      "title": "Heizung",
+      "headline": "Heizung & Wärme",
+      "summary": "Ob traditionelle Heizsysteme, moderne Wärmepumpen oder intelligente Regelungstechnik: Wir finden die beste Option für Ihre individuellen Bedürfnisse.",
+      "metaDescription": "Heizungsinstallation, Heizungstausch, Wartung und Notdienst in Runkel und im Umkreis Limburg-Weilburg. Wärmepumpe, Gas, Öl, Pellets, Solarthermie und Hybridheizung.",
+      "intro": "Wir warten, reparieren und modernisieren Ihre Heizung. Mit unserer Beratung finden wir die beste Lösung für Sie, effizient und bereit für die Wintertage. Veraltete Systeme erbringen nicht genug Leistung und haben einen hohen Energieverbrauch, was auch einen hohen Kostenfaktor darstellt.",
+      "imageLabel": "Heizungsanlage aus einem Kundenprojekt",
+      "groups": [
+        {
+          "title": "Unsere Leistungen",
+          "items": [
+            {
+              "title": "Installation Heizungssystem",
+              "text": "Von der modernen Fußbodenheizung über effiziente Heizkörper bis hin zur präzisen Rohrverlegung: Wir bieten Ihnen maßgeschneiderte Heizungsinstallationen für höchsten Komfort und Effizienz in Ihrem Zuhause."
+            },
+            {
+              "title": "Wartung & Service",
+              "text": "Sichern Sie sich langanhaltende Wärmeleistung und Effizienz! Unsere Wartung beugt Verschleiß vor, minimiert das Risiko von Heizungsausfällen und optimiert den Gasverbrauch. Wir kümmern uns auch um Wärmepumpen, Regelungseinstellungen, Solarthermie und Lüftungsanlagen."
+            },
+            {
+              "title": "Heizungstausch",
+              "text": "Bereit für mehr Effizienz und Komfort? Wir bieten Ihnen einen ganzheitlichen Heizungstausch: von präziser Auslegung über fundierte Beratung und reibungslose Installation von Wärmepumpen, Solarthermie und modernster Regelungstechnik bis zur Unterstützung bei Ihrem BAFA-Antrag für attraktive Fördermöglichkeiten."
+            },
+            {
+              "title": "Reparatur & Notdienst",
+              "text": "Soforthilfe für Wärme in der Kälte! Unser Notdienst steht bereit, um Heizungsausfälle, Probleme mit Warmwasser und fehlende Wärme im Winter schnell zu beheben. Unser Spezialgebiet ist hier vor allem die Wartung und Störungsbehebung von Gas- und Ölbrennern."
+            }
+          ]
+        },
+        {
+          "title": "Arten von Heizungen",
+          "text": "Wir beraten Sie umfassend zu den verschiedenen Heizungssystemen, denn jedes hat seine eigenen Vor- und Nachteile. Welche Heizung für Sie am sinnvollsten ist, klären wir gern bei einem kostenfreien Vor-Ort-Termin.",
+          "items": [
+            {
+              "title": "Wärmepumpe",
+              "text": "Die Wärmepumpe ist eine energieeffiziente Heiztechnologie, die Wärme aus der Umgebungsluft, dem Erdreich oder dem Grundwasser gewinnt und sie für Heizung und Warmwasser nutzbar macht, ohne fossile Brennstoffe zu verbrauchen."
+            },
+            {
+              "title": "Gasheizung",
+              "text": "Die Gasbrennwerttechnik nutzt den höchstmöglichen Anteil an Energie aus dem eingesetzten Erdgas, indem sie nicht nur die Verbrennungswärme, sondern auch die Wärme aus den Abgasen zurückgewinnt. Das ermöglicht eine besonders effiziente Heizung und Warmwasserbereitung."
+            },
+            {
+              "title": "Ölheizung",
+              "text": "Die Ölbrennwerttechnik gewinnt Wärme aus dem Heizöl und nutzt zusätzlich die Abgase, um Energie zurückzugewinnen. Obwohl fossile Brennstoffe weniger nachhaltig sind, bietet sie eine effiziente Lösung für Heizungsanlagen."
+            },
+            {
+              "title": "Pelletheizung",
+              "text": "Eine Pelletheizung erzeugt Wärme aus Holzpellets, kleinen komprimierten Holzstücken. Das System ist umweltfreundlich, da die Pellets aus nachwachsenden Rohstoffen hergestellt werden, und kann zu einer kosteneffizienten und nachhaltigen Wärmeversorgung führen."
+            },
+            {
+              "title": "Solarthermie",
+              "text": "Eine Solarthermieanlage fängt mit speziellen Kollektoren auf dem Dach Sonnenenergie ein und wandelt sie in Wärme um. Die erwärmte Flüssigkeit gibt diese über ein Rohrsystem an das Heizsystem oder einen Wasserspeicher ab. So versorgen Sie Ihr Gebäude umweltfreundlich mit Heizwärme oder warmem Wasser."
+            },
+            {
+              "title": "Hybride Wärmeerzeugung",
+              "text": "Eine Hybridheizung kombiniert verschiedene Heiztechnologien, zum Beispiel Wärmepumpe, Gasheizung und Solarthermie. Ein intelligentes Regelungssystem wählt automatisch die effizienteste Quelle und senkt so den Energieverbrauch. Das ermöglicht eine vielseitige, nachhaltige und kosteneffektive Beheizung."
+            }
+          ]
+        }
+      ]
+    },
+    "lueftung": {
+      "title": "Klima & Lüftung",
+      "headline": "Klima & Lüftung",
+      "summary": "Wir schaffen ein optimales Raumklima durch die richtige Belüftung, die den CO2-Gehalt senkt und die Luftfeuchtigkeit auf einem angenehmen Niveau hält.",
+      "metaDescription": "Lüftungsanlagen für Neubau und Bestand: zentrale und dezentrale Lösungen mit Wärmerückgewinnung vom Meisterbetrieb in Runkel und im Umkreis Limburg-Weilburg.",
+      "intro": "Ein ungesundes Raumklima mit zu viel CO2 und möglicherweise sogar Feinstaub, Pollen oder Schimmelpilzsporen kann Ihre Gesundheit negativ beeinflussen. Daher ist es wichtig, regelmäßig zu lüften. Die herkömmliche Fensterlüftung hat allerdings einige Nachteile, und die moderne Haustechnik bietet eine intelligente Alternative.",
+      "imageLabel": "Lüftungstechnik aus einem Kundenprojekt",
+      "groups": [
+        {
+          "title": "Vorteile einer Lüftungsanlage",
+          "items": [
+            {
+              "title": "Automatische Lüftung",
+              "text": "Eine automatische Lüftungsanlage bringt auch dann frische Luft ins Haus, wenn Sie schlafen oder nicht vor Ort sind."
+            },
+            {
+              "title": "Schutz vor Schadstoffen",
+              "text": "Ein Filter hält Feinstaub und Pollen zuverlässig aus der Zuluft zurück und entlastet dadurch vor allem Allergiker."
+            },
+            {
+              "title": "Wärmerückgewinnung",
+              "text": "Ein Wärmetauscher entzieht der Abluft Wärme und wärmt damit die kalte Zuluft auf."
+            },
+            {
+              "title": "Effiziente Temperaturregulierung",
+              "text": "Die Lüftung reguliert die Temperatur der Räume. Im Sommer hält sie die Hitze länger draußen, im Winter bleibt es länger warm."
+            },
+            {
+              "title": "Schimmel vorbeugen",
+              "text": "Durch den kontinuierlichen Luftwechsel hat auch Schimmel keine Chance."
+            }
+          ]
+        },
+        {
+          "title": "Zentral oder dezentral",
+          "items": [
+            {
+              "title": "Zentrale Lüftungsanlage",
+              "text": "Ein zentrales Lüftungssystem sorgt jederzeit für idealen Luftaustausch. Ventilatoren führen verbrauchte, feuchte Luft ab und bringen frische Luft hinein, perfekt geregelt und mit nur einem zentralen Gerät für das gesamte Haus. Ein energieeffizienter Neubau erfordert eine solche Anlage, und auch bei der umfassenden Sanierung eines Altbaus kann sie eine sinnvolle Investition sein."
+            },
+            {
+              "title": "Dezentrale Lüftungsanlage",
+              "text": "Ventilatoren befördern bei Bedarf Außenluft ins Gebäude und feuchte Innenluft nach außen, gezielt in den Räumen, die einen effektiven Luftaustausch benötigen. Egal ob Bad, Schlafzimmer oder Keller: Das manuelle Öffnen der Fenster gehört in einzelnen Räumen der Vergangenheit an."
+            }
+          ]
+        },
+        {
+          "title": "Neubau und Bestand",
+          "items": [
+            {
+              "title": "Lüftungsanlage im Neubau",
+              "text": "Moderne Neubauten sind luftdicht, um Energie zu sparen. Deshalb ist eine kontrollierte Wohnraumlüftung mit Wärmerückgewinnung ein Muss, idealerweise als zentrale Anlage mit Ab- und Zuluft. Die Wärmerückgewinnung senkt zudem den Heizbedarf und die Kosten."
+            },
+            {
+              "title": "Lüftungsanlage im Bestandsgebäude",
+              "text": "Die Planung und Installation des Luftverteilsystems ist im Bestand anspruchsvoller als im Neubau. Hier bieten sich dezentrale Lüftungsanlagen an: Wohnbereiche mit hoher Feuchtigkeitsbelastung wie Küche oder Bad lassen sich gezielt und ohne großen Aufwand lüften."
+            }
+          ]
+        }
+      ]
+    },
+    "wartung": {
+      "title": "Wartung & Reparatur",
+      "headline": "Wartung & Reparaturen",
+      "summary": "Wir führen Inspektionen und Reparaturen durch und maximieren die Effizienz Ihrer Sanitär- und Heizungsanlagen.",
+      "metaDescription": "Wartung, Inspektion, Reparatur und Notdienst für Sanitär- und Heizungsanlagen in Runkel und im Umkreis Limburg-Weilburg.",
+      "intro": "Regelmäßige Wartung ist entscheidend, um den reibungslosen Betrieb Ihrer Sanitär- und Heizungsanlagen zu gewährleisten. Wir stehen Ihnen zur Verfügung, um Inspektionen und Reparaturen durchzuführen und die Effizienz Ihrer Anlagen zu maximieren.",
+      "imageLabel": "Wartung einer Anlage durch unser Team",
+      "groups": [
+        {
+          "title": "Unsere Leistungen",
+          "items": [
+            {
+              "title": "Wartung & Service",
+              "text": "Unsere Wartung beugt Verschleiß vor, minimiert das Risiko von Heizungsausfällen und optimiert den Gasverbrauch. Wir kümmern uns auch um Wärmepumpen, Regelungseinstellungen, Solarthermie und Lüftungsanlagen."
+            },
+            {
+              "title": "Reparatur & Notdienst",
+              "text": "Unser Notdienst behebt Heizungsausfälle, Probleme mit Warmwasser und fehlende Wärme im Winter schnell. Unser Spezialgebiet ist die Wartung und Störungsbehebung von Gas- und Ölbrennern."
+            },
+            {
+              "title": "Wasserschaden & Reparatur",
+              "text": "Wir kommen auch, wenn es tropft: Leckageortungen und Reparaturmaßnahmen im Sanitärbereich gehören zu unserem Leistungsspektrum."
+            },
+            {
+              "title": "Effizienz",
+              "text": "Gut gewartete Anlagen arbeiten effizienter. Wir sorgen dafür, dass Ihre Technik zuverlässig und sparsam läuft."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "about": {
+    "metaDescription": "Lernen Sie Fink Haustechnik kennen: Installateur- und Heizungsbaumeister Andreas Fink und das Team aus Runkel im Umkreis Limburg-Weilburg.",
+    "eyebrow": "Über uns",
+    "title": "Ihr Projekt ist bei uns in guten Händen",
+    "teamEyebrow": "Das Team",
+    "teamTitle": "Wer für Sie arbeitet",
+    "team": [
+      {
+        "name": "Andreas Fink",
+        "role": "Installateur- & Heizungsbaumeister, Geschäftsführer",
+        "text": "Hallo, mein Name ist Andreas Fink, gelernter Anlagenmechaniker für SHK und Heizungsbaumeister. Dank meiner langjährigen Erfahrung in Kundendienst und Montage weiß ich, worauf es ankommt. Schon seit meiner Kindheit habe ich im Familienbetrieb mit angepackt und dabei das Handwerk von früh auf erlernen dürfen. Ihr Projekt ist bei mir in guten Händen!",
+        "imageLabel": "Porträt von Andreas Fink"
+      },
+      {
+        "name": "Leon Fink",
+        "role": "Auszubildender Anlagenmechaniker SHK",
+        "text": "Wir freuen uns, Ihnen Leon vorstellen zu dürfen. Im 2. Lehrjahr als Anlagenmechaniker für Sanitär-, Heizungs- und Klimatechnik beeindruckt Leon nicht nur mit Fachkenntnissen, sondern auch mit leidenschaftlicher Hingabe für das Handwerk. Durch sein großes Engagement und seine offene und freundliche Art ist Leon eine große Bereicherung für unser Team.",
+        "imageLabel": "Porträt von Leon Fink"
+      }
+    ],
+    "valuesEyebrow": "Unsere Werte",
+    "valuesTitle": "Was uns wichtig ist",
+    "trainingTitle": "Ausbildung",
+    "trainingText": "Wir freuen uns, wenn junge Menschen Interesse an einem Handwerksberuf haben, und legen daher großen Wert auf eine gute Ausbildung. Leon nimmt aktiv an Schulungen und überbetrieblichen Lehrgängen der Handwerkskammer teil."
+  },
+  "projects": {
+    "metaDescription": "Projekte von Fink Haustechnik: Einblicke in Bäder, Heizungsanlagen und mehr aus Runkel und dem Umkreis Limburg-Weilburg.",
+    "eyebrow": "Projekte",
+    "title": "Unsere letzten Projekte",
+    "intro": "Durchstöbern Sie unsere Galerie, bestehend aus unseren letzten Projekten!",
+    "comingSoon": "Die Galerie wird hier in Kürze angezeigt."
+  },
+  "contact": {
+    "metaDescription": "Kontakt zu Fink Haustechnik in Runkel: per Telefon, WhatsApp oder E-Mail.",
+    "eyebrow": "Kontakt",
+    "title": "So erreichen Sie uns",
+    "intro": "Rufen Sie uns an oder schreiben Sie uns per WhatsApp oder E-Mail."
+  },
+  "imprint": {
+    "metaDescription": "Impressum von Fink Haustechnik, Runkel.",
+    "eyebrow": "Rechtliches",
+    "title": "Impressum",
+    "providerTitle": "Angaben gemäß § 5 DDG",
+    "providerName": "Andreas Fink",
+    "providerCompany": "Fink Haustechnik e.U.",
+    "contactTitle": "Kontakt",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "E-Mail:",
+    "vatTitle": "Umsatzsteuer-ID",
+    "vatText": "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE358189493",
+    "insuranceTitle": "Angaben zur Berufshaftpflichtversicherung",
+    "insuranceName": "Name und Sitz des Versicherers:",
+    "insuranceCompany": "Alte Leipziger Versicherungen",
+    "insuranceStreet": "Alte Leipziger Platz 1",
+    "insuranceCity": "61440 Oberursel"
+  },
+  "privacy": {
+    "metaDescription": "Datenschutzerklärung von Fink Haustechnik, Runkel.",
+    "eyebrow": "Rechtliches",
+    "title": "Datenschutz­erklärung",
+    "sections": [
+      {
+        "title": "Grundlegendes",
+        "paragraphs": [
+          "Diese Datenschutzerklärung soll die Nutzer dieser Website über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber „Fink SHK“ informieren. Der Websitebetreiber nimmt Ihren Datenschutz sehr ernst und behandelt Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Vorschriften.",
+          "Da durch neue Technologien und die ständige Weiterentwicklung dieser Webseite Änderungen an dieser Datenschutzerklärung vorgenommen werden können, empfehlen wir Ihnen, sich die Datenschutzerklärung in regelmäßigen Abständen wieder durchzulesen. Definitionen der verwendeten Begriffe (z. B. „personenbezogene Daten“ oder „Verarbeitung“) finden Sie in Art. 4 DSGVO."
+        ]
+      },
+      {
+        "title": "Zugriffsdaten",
+        "paragraphs": [
+          "Wir, der Websitebetreiber bzw. Seitenprovider, erheben aufgrund unseres berechtigten Interesses (s. Art. 6 Abs. 1 lit. f DSGVO) Daten über Zugriffe auf die Website und speichern diese als „Server-Logfiles“ auf dem Server der Website ab. Folgende Daten werden so protokolliert: besuchte Website, Uhrzeit zum Zeitpunkt des Zugriffes, Menge der gesendeten Daten in Byte, Quelle/Verweis, von welchem Sie auf die Seite gelangten, verwendeter Browser, verwendetes Betriebssystem und verwendete IP-Adresse.",
+          "Die Server-Logfiles werden für maximal 7 Tage gespeichert und anschließend gelöscht. Die Speicherung der Daten erfolgt aus Sicherheitsgründen, um z. B. Missbrauchsfälle aufklären zu können. Müssen Daten aus Beweisgründen aufgehoben werden, sind sie solange von der Löschung ausgenommen, bis der Vorfall endgültig geklärt ist."
+        ]
+      },
+      {
+        "title": "Erfassung und Verarbeitung personenbezogener Daten",
+        "paragraphs": [
+          "Der Websitebetreiber erhebt, nutzt und gibt Ihre personenbezogenen Daten nur dann weiter, wenn dies im gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung einwilligen. Als personenbezogene Daten gelten sämtliche Informationen, welche dazu dienen, Ihre Person zu bestimmen und welche zu Ihnen zurückverfolgt werden können, also beispielsweise Ihr Name, Ihre E-Mail-Adresse und Telefonnummer. Diese Website können Sie auch besuchen, ohne Angaben zu Ihrer Person zu machen."
+        ]
+      },
+      {
+        "title": "Umgang mit Kontaktdaten",
+        "paragraphs": [
+          "Nehmen Sie mit uns als Websitebetreiber durch die angebotenen Kontaktmöglichkeiten Verbindung auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung und Beantwortung Ihrer Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung werden diese Daten nicht an Dritte weitergegeben."
+        ]
+      },
+      {
+        "title": "Rechte des Nutzers",
+        "paragraphs": [
+          "Sie haben als Nutzer das Recht, auf Antrag eine kostenlose Auskunft darüber zu erhalten, welche personenbezogenen Daten über Sie gespeichert wurden. Sie haben außerdem das Recht auf Berichtigung falscher Daten und auf die Verarbeitungseinschränkung oder Löschung Ihrer personenbezogenen Daten. Falls zutreffend, können Sie auch Ihr Recht auf Datenportabilität geltend machen. Sollten Sie annehmen, dass Ihre Daten unrechtmäßig verarbeitet wurden, können Sie eine Beschwerde bei der zuständigen Aufsichtsbehörde einreichen."
+        ]
+      },
+      {
+        "title": "Löschung von Daten",
+        "paragraphs": [
+          "Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten kollidiert, haben Sie ein Anrecht auf Löschung Ihrer Daten. Von uns gespeicherte Daten werden gelöscht, sollten sie für ihre Zweckbestimmung nicht mehr vonnöten sein und es keine gesetzlichen Aufbewahrungsfristen geben. Falls eine Löschung nicht durchgeführt werden kann, da die Daten für zulässige gesetzliche Zwecke erforderlich sind, erfolgt eine Einschränkung der Datenverarbeitung. In diesem Fall werden die Daten gesperrt und nicht für andere Zwecke verarbeitet."
+        ]
+      },
+      {
+        "title": "Widerspruchsrecht",
+        "paragraphs": [
+          "Nutzer dieser Webseite können von ihrem Widerspruchsrecht Gebrauch machen und der Verarbeitung ihrer personenbezogenen Daten zu jeder Zeit widersprechen. Wenn Sie eine Berichtigung, Sperrung, Löschung oder Auskunft über die zu Ihrer Person gespeicherten personenbezogenen Daten wünschen oder Fragen bzgl. der Erhebung, Verarbeitung oder Verwendung Ihrer personenbezogenen Daten haben oder erteilte Einwilligungen widerrufen möchten, wenden Sie sich bitte an folgende E-Mail-Adresse: info@fink-haustechnik.de"
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "metaTitle": "Seite nicht gefunden",
+    "eyebrow": "Fehler 404",
+    "title": "Diese Seite gibt es nicht",
+    "text": "Die aufgerufene Adresse wurde nicht gefunden. Vielleicht hat sie sich geändert."
+  }
+}
