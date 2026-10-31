@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Fink.Api/Fink.Api.csproj" />
+  <Project Path="Fink.Domain/Fink.Domain.csproj" />
+  <Project Path="Fink.Infrastructure/Fink.Infrastructure.csproj" />
+  <Project Path="Fink.Tests/Fink.Tests.csproj" />
+</Solution>

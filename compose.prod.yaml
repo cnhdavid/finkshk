@@ -1,0 +1,54 @@
+services:
+  web:
+    image: ghcr.io/${GHCR_OWNER:?GHCR_OWNER is required}/fink-web:latest
+    restart: always
+    networks:
+      internal:
+      proxy:
+        aliases:
+          - fink-prod-web
+
+  api:
+    image: ghcr.io/${GHCR_OWNER:?GHCR_OWNER is required}/fink-api:latest
+    restart: always
+    networks:
+      internal:
+      proxy:
+        aliases:
+          - fink-prod-api
+
+  db:
+    restart: always
+
+  backup:
+    image: postgres:18-alpine
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGHOST: db
+      PGDATABASE: ${POSTGRES_DB:?POSTGRES_DB is required}
+      PGUSER: ${POSTGRES_USER:?POSTGRES_USER is required}
+      PGPASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+      BACKUP_RETENTION_DAYS: ${BACKUP_RETENTION_DAYS:-14}
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        while true; do
+          pg_dump --format=custom --file="/backups/$$PGDATABASE-$$(date +%F).dump"
+          find /backups -name '*.dump' -mtime +"$$BACKUP_RETENTION_DAYS" -delete
+          sleep 86400
+        done
+    volumes:
+      - backups:/backups
+    networks:
+      - internal
+
+volumes:
+  backups:
+
+networks:
+  proxy:
+    external: true

@@ -1,0 +1,18 @@
+{
+  "name": "Fink Haustechnik",
+  "dockerComposeFile": "compose.yaml",
+  "service": "dev",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "vscode",
+  "forwardPorts": [3000, 5080, "mailpit:8025"],
+  "postCreateCommand": "cd web && npm ci && cd ../api && dotnet restore Fink.slnx",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

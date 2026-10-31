@@ -1,0 +1,25 @@
+services:
+  web:
+    build:
+      context: ./web
+    ports:
+      - "3000:3000"
+
+  api:
+    build:
+      context: ./api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "5080:8080"
+
+  db:
+    ports:
+      - "127.0.0.1:5432:5432"
+
+  mailpit:
+    image: axllent/mailpit:v1.33
+    ports:
+      - "8025:8025"
+    networks:
+      - internal

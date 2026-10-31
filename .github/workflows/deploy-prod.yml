@@ -1,0 +1,55 @@
+name: deploy-prod
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: deploy-prod
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      IMAGE_TAG: latest
+      PROJECT: fink-prod
+      COMPOSE_OVERRIDE: compose.prod.yaml
+      ENV_FILE: .env.prod
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Log in to registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Build and push images
+        run: |
+          owner="$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')"
+          for app in web api; do
+            image="ghcr.io/$owner/fink-$app"
+            docker build -t "$image:$IMAGE_TAG" -t "$image:$GITHUB_SHA" "./$app"
+            docker push --all-tags "$image"
+          done
+
+      - name: Configure SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
+          echo "${{ secrets.VPS_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/id_ed25519 ~/.ssh/known_hosts
+
+      - name: Deploy
+        env:
+          TARGET: ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}
+          REGISTRY_USER: ${{ secrets.GHCR_USER }}
+          REGISTRY_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        run: |
+          scp compose.yaml "$COMPOSE_OVERRIDE" "$TARGET:/opt/fink/"
+          echo "$REGISTRY_TOKEN" | ssh "$TARGET" "docker login ghcr.io -u '$REGISTRY_USER' --password-stdin"
+          compose="docker compose --env-file $ENV_FILE -p $PROJECT -f compose.yaml -f $COMPOSE_OVERRIDE"
+          ssh "$TARGET" "cd /opt/fink && $compose pull && $compose up -d --remove-orphans"
