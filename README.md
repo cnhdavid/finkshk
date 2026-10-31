@@ -85,6 +85,10 @@ Der Hash muss in `.env` in einfachen Anführungszeichen stehen, weil er `$` enth
 
 Mailpit der Test-Umgebung ist nur auf dem Server erreichbar, per Tunnel: `ssh -L 8025:127.0.0.1:8025 <user>@<host>`.
 
+## GitHub Pages (Vorschau)
+
+`deploy-pages.yml` veröffentlicht einen statischen Export als Vorschau. Er setzt `noindex`, enthält keine `/health`-Route und ersetzt nicht das Hosting auf dem VPS. Unter „Settings → Pages“ muss als Quelle „GitHub Actions“ gewählt sein, und im Environment `github-pages` muss der deployende Branch erlaubt sein.
+
 ## Backups
 
 `compose.prod.yaml` schreibt täglich einen `pg_dump` in das Volume `backups` und löscht Dumps nach `BACKUP_RETENTION_DAYS` Tagen. Das Volume liegt auf demselben Server, schützt also nicht vor einem Serverausfall.

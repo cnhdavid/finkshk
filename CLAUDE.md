@@ -11,7 +11,7 @@ Rebuild der bestehenden Wix-Website von **Fink Haustechnik** (https://www.finksh
 - Telefon: +49 172 9167075
 - E-Mail: info@fink-haustechnik.de
 - Instagram: https://www.instagram.com/finkshk/
-- Positionierung: Meisterbetrieb für Heizung, Bäder, Solar und erneuerbare Energien; Qualität, Kundenorientierung, Erfahrung, moderne Werkzeuge
+- Positionierung: Meisterbetrieb für Sanitär, Heizung und Klima; Qualität, Kundenorientierung, Erfahrung, moderne Werkzeuge
 
 ### Seitenstruktur (1:1 übernehmen, dann verbessern)
 
@@ -29,7 +29,7 @@ Rebuild der bestehenden Wix-Website von **Fink Haustechnik** (https://www.finksh
 | `/impressum` | Pflichtangaben nach § 5 DDG |
 | `/datenschutz` | DSGVO-Erklärung passend zum neuen Stack |
 
-Texte der alten Seite sind nur sinngemäß bekannt. Originaltexte und Bilder in voller Auflösung beim Kunden anfordern, nicht von Wix scrapen. Bis dahin Platzhaltertexte mit `TODO(content)` markieren.
+Die Texte stammen von der alten Seite und liegen in `web/messages/de.json`. Bilder in voller Auflösung beim Kunden anfordern, nicht von Wix scrapen. Fehlende Inhalte mit `TODO(content)` markieren.
 
 ### Bekannte Probleme der alten Seite (im Rebuild beheben)
 
@@ -60,6 +60,7 @@ Texte der alten Seite sind nur sinngemäß bekannt. Originaltexte und Bilder in 
 - `next/font` mit selbst gehosteten Fonts (OFL), keine Laufzeit-Requests an Google Fonts; Font im MUI-Theme referenzieren
 - Formulare: React Hook Form + Zod, Felder als MUI-Komponenten über `Controller`
 - Eigene wiederverwendbare Komponenten unter `web/src/components`
+- i18n: `next-intl` ohne Locale-Routing; jeder sichtbare Text inklusive Metadaten und ARIA-Labels liegt in `web/messages/de.json`, im Code nur Keys. Client-Komponenten bekommen Texte als Props aus Server-Komponenten
 
 ### Backend (`/api`)
 - ASP.NET Core (.NET 10, Minimal APIs)
@@ -132,12 +133,14 @@ Texte der alten Seite sind nur sinngemäß bekannt. Originaltexte und Bilder in 
 ├── .env.example
 ├── infra/proxy/              Caddy-Stack (compose.yaml, Caddyfile)
 ├── web/                      Next.js
+│   ├── messages/             Übersetzungsdateien (de.json)
 │   └── src/
 │       ├── app/              Routen
 │       ├── components/
 │       ├── theme/            MUI-Theme
 │       ├── lib/              API-Client, Utils
-│       └── content/          statische Texte der Leistungsseiten (TS-Objekte)
+│       ├── i18n/             next-intl-Konfiguration
+│       └── content/          Kontaktdaten, Leistungs-Slugs, Typen (keine Texte)
 └── api/
     ├── Fink.Api/             Endpunkte, Program.cs
     ├── Fink.Domain/          Entities
